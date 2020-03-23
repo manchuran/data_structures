@@ -48,13 +48,10 @@ def nested_list_sum(lst):
     return lst[0] + nested_list_sum(lst[1:])
 ```
 
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
 For the same `b` it produces a `%timeit` output of `8.6 µs ± 301 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each)`
 
 ## Solution 3
-An alternative solution converts the whole list into string, strips it and then converts it back to integer (or float) types as may be required. I have use integer in this case.
+An alternative solution converts the whole list to string, strips it and then convert the numbers back to integer (or float) types as may be required. I have used integer in this case.
 
 ```python
 def nested_list_sum2(nested_list):
