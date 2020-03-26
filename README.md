@@ -2,9 +2,9 @@
 
 I have been examining nested lists after reading up recursion in _How to Think like a Computer Scientist: Learning with Python 3 Documentation_ by Peter Wenthworth, Jeffrey Elkner, Allen B. Downey and Chris Meyers.
 
-In their example on recursive data structures, they examined a function which calculated the sum of numbers in the nested list, i.e. a list which may contain any of a number, another list, or an empty list.
+In their example on recursive data structures, they examined a function which calculated the sum of numbers in a nested list, i.e. a list which may contain any of a number, another list, or an empty list.
 
-Though one could use a for loop for tackling such a list, recursion is much more ideally suited for this problem. For my own solution, I examined an alternative recursive approach and another different one-line technique which employed list comprehension.
+Though one could use a for loop in tackling such a list, recursion is much more ideally suited for this problem. For my own solution, I examined an alternative recursive approach and another different one-line technique which employed list comprehension.
 
 ## Solution 1
 
