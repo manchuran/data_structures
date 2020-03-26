@@ -70,4 +70,4 @@ def nested_list_sum2(nested_list):
 
 For the same `b` it produces a `%timeit` output of `10.3 µs ± 255 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each)`
 
-Though their speed are comparable to the original, both turn out to be not as fast as. Solution 3, however, is quite unique in its employment of the `split` and `strip` functions in solving the problem.
+Though their speeds are comparable to the original, both turn out to be not as fast as. Solution 3, however, is quite unique in its employment of the `split` and `strip` functions in solving the problem.
