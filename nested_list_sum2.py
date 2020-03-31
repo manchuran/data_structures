@@ -9,7 +9,7 @@ def nested_list_sum2(nested_list):
     
     return sum([int(item.strip('[ [] ]')) 
                 for item in str(nested_list).split(',') 
-                if item.strip() != '[]'])
+                if item.strip('[ [] ]') != ''])
 
 def main():
     sample_list = [[7000,[415,[],321],5],6,21,9,[20,32,4],[],[12, [345,[900,12040]],12],11,[0,[],2400,5],19]
