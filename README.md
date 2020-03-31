@@ -65,7 +65,7 @@ def nested_list_sum2(nested_list):
     
     return sum([int(item.strip('[ [] ]')) 
                 for item in str(nested_list).split(',') 
-                if item.strip() != '[]'])
+                if item.strip('[ [] ]') != ''])
 ```
 
 For the same `b` it produces a `%timeit` output of `10.3 µs ± 255 ns per loop (mean ± std. dev. of 7 runs, 100000 loops each)`
